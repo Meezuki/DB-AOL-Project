@@ -1,0 +1,17 @@
+CREATE DATABASE gudang_db;
+
+CREATE TABLE users (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    username VARCHAR(50),
+    password VARCHAR(50)
+);
+
+CREATE TABLE products (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    type VARCHAR(20), -- Diisi 'Laptop' atau 'HP'
+    name VARCHAR(100),
+    price DOUBLE,
+    stock INT,
+    spec_1 VARCHAR(50), -- Bisa untuk Processor atau Camera
+    spec_2 VARCHAR(50)  -- Bisa untuk RAM atau Battery
+);
