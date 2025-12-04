@@ -15,3 +15,9 @@ CREATE TABLE products (
     spec_1 VARCHAR(50), -- Bisa untuk Processor atau Camera
     spec_2 VARCHAR(50)  -- Bisa untuk RAM atau Battery
 );
+
+
+
+-- add USER
+
+INSERT INTO users (username, password) VALUES ('admin', 'admin123');

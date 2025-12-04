@@ -1,7 +1,5 @@
 package model;
 
-import dao.Product;
-
 // INHERITANCE: Laptop adalah turunan dari Product
 public class Laptop extends Product {
     private String processor;

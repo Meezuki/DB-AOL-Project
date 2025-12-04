@@ -1,6 +1,8 @@
 package dao;
 
 import model.Laptop;
+import model.Product;
+import model.Smartphone;
 
 import java.sql.*;
 import java.util.ArrayList;

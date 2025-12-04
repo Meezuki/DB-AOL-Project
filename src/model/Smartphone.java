@@ -1,4 +1,4 @@
-package dao;
+package model;
 
 public class Smartphone extends Product {
     private int cameraMP;
