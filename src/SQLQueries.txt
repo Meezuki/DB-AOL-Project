@@ -1,5 +1,9 @@
+
+-- do first
 CREATE DATABASE gudang_db;
 
+
+-- make tables
 CREATE TABLE users (
     id INT AUTO_INCREMENT PRIMARY KEY,
     username VARCHAR(50),
